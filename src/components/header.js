@@ -20,6 +20,7 @@ const Header = () => (
         <FontAwesomeIcon icon={faGithubAlt} />
         <FontAwesomeIcon icon={faLinkedinIn} />
       </div>
+      <div className="divisor" />
     </div>
   </div>
 )
