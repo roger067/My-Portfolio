@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  margin: 32px auto;
+  width: 1150px;
+}
+
+.sidebar {
+  box-shadow: 0 0 3px 0 rgba(126, 134, 181, 0.2);
+  flex: 1 1 25%;
+  height: 100vh;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.content-card {
+  box-shadow: 0 0 3px 0 rgba(126, 134, 181, 0.2);
+  flex: 1 1 75%;
+  height: 100vh;
+  background: #fff;
+  border-radius: 16px;
+  margin-left: 32px;
+}

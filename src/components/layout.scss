@@ -7,6 +7,7 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #f5f6f7;
 }
 article,
 aside,
@@ -190,7 +191,7 @@ html {
   overflow-y: scroll;
 }
 * {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 *:before {
   box-sizing: inherit;
