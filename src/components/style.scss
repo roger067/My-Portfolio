@@ -1,5 +1,5 @@
-$grey: #dddddd;
-$dark_grey: #1b1938;
+$grey: #f5f6f7;
+$dark_grey: #292558;
 
 .container {
   display: flex;
@@ -13,7 +13,7 @@ $dark_grey: #1b1938;
   flex: 1 1 25%;
   background: #fff;
   border-radius: 16px;
-  padding: 20px;
+  padding: 20px 0 0;
 
   img {
     display: block;
@@ -49,11 +49,26 @@ $dark_grey: #1b1938;
     }
   }
 
-  .divisor {
-    height: 2px;
-    background: #4238ce;
-    border-radius: 8px;
-    margin: 8px 0;
+  .info-bottom {
+    background: $grey;
+    padding: 20px;
+    border-radius: 0 0 16px 16px;
+    text-align: left;
+
+    .info-line {
+      margin-bottom: 12px;
+      &:last-child {
+        margin-bottom: 0;
+      }
+      svg {
+        margin: 0 8px 0 0;
+      }
+      span {
+        font-size: 14px;
+        font-weight: 500;
+        color: $dark_grey;
+      }
+    }
   }
 }
 

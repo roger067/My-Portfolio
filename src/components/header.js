@@ -6,6 +6,12 @@ import {
   faGithubAlt,
   faLinkedinIn,
 } from "@fortawesome/free-brands-svg-icons"
+import {
+  faCalendarAlt,
+  faMapMarkerAlt,
+  faEnvelope,
+  faMobileAlt,
+} from "@fortawesome/free-solid-svg-icons"
 
 const Header = () => (
   <div className="sidebar">
@@ -20,7 +26,24 @@ const Header = () => (
         <FontAwesomeIcon icon={faGithubAlt} />
         <FontAwesomeIcon icon={faLinkedinIn} />
       </div>
-      <div className="divisor" />
+      <div className="info-bottom">
+        <div className="info-line">
+          <FontAwesomeIcon icon={faCalendarAlt} />
+          <span>6 de Dezembro, 2000</span>
+        </div>
+        <div className="info-line">
+          <FontAwesomeIcon icon={faMapMarkerAlt} />
+          <span>Belo Horizonte, MG</span>
+        </div>
+        <div className="info-line">
+          <FontAwesomeIcon icon={faEnvelope} />
+          <span>6 de Dezembro, 2000</span>
+        </div>
+        <div className="info-line">
+          <FontAwesomeIcon icon={faMobileAlt} />
+          <span>6 de Dezembro, 2000</span>
+        </div>
+      </div>
     </div>
   </div>
 )
