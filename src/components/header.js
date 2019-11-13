@@ -11,6 +11,7 @@ import {
   faMapMarkerAlt,
   faEnvelope,
   faMobileAlt,
+  faFileDownload,
 } from "@fortawesome/free-solid-svg-icons"
 
 const Header = () => (
@@ -21,7 +22,7 @@ const Header = () => (
         <span>Rogério</span> Moura
       </h2>
       <div className="pill">Front-end Developer</div>
-      <div>
+      <div className="social-icons">
         <FontAwesomeIcon icon={faFacebookF} />
         <FontAwesomeIcon icon={faGithubAlt} />
         <FontAwesomeIcon icon={faLinkedinIn} />
@@ -37,12 +38,16 @@ const Header = () => (
         </div>
         <div className="info-line">
           <FontAwesomeIcon icon={faEnvelope} />
-          <span>6 de Dezembro, 2000</span>
+          <span>rosestolato.rogerio@gmail.com</span>
         </div>
         <div className="info-line">
           <FontAwesomeIcon icon={faMobileAlt} />
-          <span>6 de Dezembro, 2000</span>
+          <span>+51 031 97163-0037</span>
         </div>
+        <a className="download" href="">
+          <FontAwesomeIcon icon={faFileDownload} />
+          Download CV
+        </a>
       </div>
     </div>
   </div>

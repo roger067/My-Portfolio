@@ -13,7 +13,7 @@ $dark_grey: #292558;
   flex: 1 1 25%;
   background: #fff;
   border-radius: 16px;
-  padding: 20px 0 0;
+  padding: 25px 0 0;
 
   img {
     display: block;
@@ -36,22 +36,22 @@ $dark_grey: #292558;
       display: inline-block;
       background: $grey;
       color: $dark_grey;
-      font-size: 12px;
+      font-size: 14px;
       padding: 4px 16px;
       border-radius: 20px;
     }
 
-    svg {
+    .social-icons > svg {
       color: $dark_grey;
-      width: 16px;
-      height: 16px;
+      width: 14px;
+      height: 14px;
       margin: 16px 4px;
     }
   }
 
   .info-bottom {
     background: $grey;
-    padding: 20px;
+    padding: 25px;
     border-radius: 0 0 16px 16px;
     text-align: left;
 
@@ -61,12 +61,33 @@ $dark_grey: #292558;
         margin-bottom: 0;
       }
       svg {
+        color: $dark_grey;
+        width: 14px;
+        height: 14px;
         margin: 0 8px 0 0;
       }
       span {
         font-size: 14px;
         font-weight: 500;
         color: $dark_grey;
+      }
+    }
+
+    a.download {
+      width: 100%;
+      display: block;
+      text-align: center;
+      text-decoration: none;
+      font-size: 14px;
+      margin-top: 20px;
+      background: $dark_grey;
+      color: #fff;
+      border-radius: 20px;
+      padding: 14px;
+      box-shadow: rgba(41, 39, 95, 0.04) 0px 2px 3px 0px;
+
+      svg {
+        margin-right: 8px;
       }
     }
   }
